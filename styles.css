@@ -1,0 +1,53 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css';
+
+body {
+    background-color: #1a202c;
+    color: #a0aec0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.slide {
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #2d3748;
+}
+
+.slide-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #f7fafc;
+}
+
+.slide-content {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #a0aec0;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.nav a {
+    color: #a0aec0;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #f7fafc;
+}
